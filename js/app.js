@@ -7,12 +7,12 @@ alert('WELCOME! ' + username);
 
 var isownermale = prompt ('what do you think! am i a male ?');
 console.log ('isownerfemale',isownermale);
-if (isownermale.toLocaleLowerCase() === 'no' || isownermale.toLocaleLowerCase() === 'n' ) {
+if (isownermale === 'no' || isownermale === 'n' ) {
   alert('Correct!');
 } else {
   alert('haha not really');
 }
-var isownerteenager = prompt ('do you think that im older than eighteen ?').toLocaleLowerCase();
+var isownerteenager = prompt ('do you think that im older than eighteen ?');
 console.log ('isownerteenager',isownerteenager);
 if (isownerteenager.toLocaleLowerCase() === 'y' || isownerteenager.toLocaleLowerCase() ==='yes') {
   alert('are you one of my parents :D');
@@ -20,7 +20,7 @@ if (isownerteenager.toLocaleLowerCase() === 'y' || isownerteenager.toLocaleLower
   alert('nope guess it again');
 }
 
-var isownergamer = prompt ('what about knowing me closer! ummm am i a gamer ?').toLocaleLowerCase();
+var isownergamer = prompt ('what about knowing me closer! ummm am i a gamer ?');
 console.log ('isownergamer',isownergamer);
 if (isownergamer.toLocaleLowerCase() === 'n' || isownergamer.toLocaleLowerCase() === 'no') {
   alert('Yees right guessing');
@@ -28,7 +28,7 @@ if (isownergamer.toLocaleLowerCase() === 'n' || isownergamer.toLocaleLowerCase()
   alert('not really :( ');
 }
 
-var isownernice = prompt ('do you think that im a nice person?').toLocaleLowerCase();
+var isownernice = prompt ('do you think that im a nice person?');
 console.log ('isownernice',isownernice);
 if (isownernice.toLocaleLowerCase() === 'y' || isownernice.toLocaleLowerCase() === 'yes') {
   alert('hahaaha thanksss ' + username);
