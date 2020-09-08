@@ -113,5 +113,5 @@ alert('The Shawshank Redemption , The Godfather , The Dark Knight , Pulp Fiction
 alert('well now i just will tell you the score');
 
 console.log ('score', score);
-alert('you score is ' + score + '/7');
+alert('your score is ' + score + '/7');
 
