@@ -59,6 +59,7 @@ ol {
     height: 300px;
     margin-top: 05px;
     margin-top: 05px;
+    list-style: decimal;
 
 
 
@@ -68,7 +69,7 @@ li {
     font-weight: bold;
     color: rgb(107, 10, 10);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 20px;
+    margin-left: 40px;
     line-height: 1.4;
 
 }
@@ -81,8 +82,5 @@ ul {
     width: 70%;
     height: 150px;
     margin-top: 05px;
-
-
-
-
+    list-style: square;
 }
