@@ -66,21 +66,21 @@ alert ('Ummmm, what about trying with a guessing game! i will pick a number betw
 
 for (var index = 0; index < 4; index++) {
   var number = prompt();
-  parseInt(number, 4);
+  var num = parseInt(number);
   console.log ('number', number);
-  if (number == 7) {
+  if (num === 7) {
     alert ('Good job thats correct! congrats');
     console.log ('score', score);
     score = score+1;
     break;
   }
-  else if (number <= 5 && number >= 0) {
+  else if (num <= 5 && num >= 0) {
     alert ('too low');
   }
-  else if (number > 8 && number <= 10) {
+  else if (num > 8 && num <= 10) {
     alert ('too high');
   }
-  else if (number == 6 || number == 8) {
+  else if (num === 6 || num === 8) {
     alert ('well, good trial ! you are getting closer ');
   }
   else {
