@@ -5,6 +5,7 @@ var username = prompt ('what is your name?');
 console.log ('username',username);
 alert('WELCOME! ' + username);
 
+function part1(){
 var isownermale = prompt ('what do you think! am i a male ?');
 console.log ('isownerfemale',isownermale);
 if (isownermale === 'no' || isownermale === 'n' ) {
@@ -14,7 +15,10 @@ if (isownermale === 'no' || isownermale === 'n' ) {
 } else {
   alert('haha not really');
 }
+}
+part1();
 
+function part2(){
 var isownerswimmer = prompt (' am i a good swimmer ?');
 console.log ('isownerswimmer',isownerswimmer);
 if (isownerswimmer === 'no' || isownerswimmer === 'n' ) {
@@ -24,8 +28,10 @@ if (isownerswimmer === 'no' || isownerswimmer === 'n' ) {
 } else {
   alert('nooope');
 }
+}
+part2();
 
-
+function part3(){
 var isownerteenager = prompt ('do you think that im older than eighteen ?');
 console.log ('isownerteenager',isownerteenager);
 if (isownerteenager.toLocaleLowerCase() === 'y' || isownerteenager.toLocaleLowerCase() ==='yes') {
@@ -35,8 +41,10 @@ if (isownerteenager.toLocaleLowerCase() === 'y' || isownerteenager.toLocaleLower
 } else {
   alert('nope guess it again');
 }
+}
+part3();
 
-
+function part4(){
 var isownergamer = prompt ('what about knowing me closer! ummm am i a gamer ?');
 console.log ('isownergamer',isownergamer);
 if (isownergamer.toLocaleLowerCase() === 'n' || isownergamer.toLocaleLowerCase() === 'no') {
@@ -46,8 +54,10 @@ if (isownergamer.toLocaleLowerCase() === 'n' || isownergamer.toLocaleLowerCase()
 } else {
   alert('not really :( ');
 }
+}
+part4();
 
-
+function part5(){
 var isownernice = prompt ('do you think that im a nice person?');
 console.log ('isownernice',isownernice);
 if (isownernice.toLocaleLowerCase() === 'y' || isownernice.toLocaleLowerCase() === 'yes') {
@@ -58,10 +68,13 @@ if (isownernice.toLocaleLowerCase() === 'y' || isownernice.toLocaleLowerCase() =
 } else {
   alert('go out ' + username);
 }
+}
+part5();
 
 
 
 // the numberber is 7
+function part6(){
 alert ('Ummmm, what about trying with a guessing game! i will pick a number between 0 to 10, try to guess it and write it down');
 
 for (var index = 0; index < 4; index++) {
@@ -88,7 +101,10 @@ for (var index = 0; index < 4; index++) {
   }
 }
 alert ('well then !the answer is 7');
+}
+part6();
 
+function part7(){
 var Bmovie = ['The Shawshank Redemption','The Godfather', 'The Dark Knight' , 'Pulp Fiction', 'The Lord of the Rings'];
 alert ('So now it is another guessing game, i will ask you a question with more than one correct answer');
 alert ('but you have only 6 trials ok!');
@@ -114,4 +130,6 @@ alert('well now i just will tell you the score');
 
 console.log ('score', score);
 alert('your score is ' + score + '/7');
+}
+part7();
 
