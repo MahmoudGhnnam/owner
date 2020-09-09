@@ -10,9 +10,3 @@
 * the function is added to all questions.
 #### the driver is mahmoud ghannam
 #### the navigator is farah alzayyout
-
-### updates in 9/september:
-* the function is added to all questions.
-
-#### the driver is mahmoud ghannam
-#### the navigator is farah alzayyout
