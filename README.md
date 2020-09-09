@@ -6,3 +6,8 @@
 
 ### the final score is out of 7 .. if it was a 7/7 then all of the questions answered correctly! so enjoy the game.
 
+### updates in 9/september:
+* the function is added to all questions.
+#### the driver is mahmoud ghannam
+#### the navigator is farah alzayyout
+
